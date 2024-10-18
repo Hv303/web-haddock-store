@@ -1,0 +1,93 @@
+/* Background hitam dan card transparan dengan efek blur */
+.b {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-image: url("../properti/log-reg-remkae.jpg"); /* Ganti dengan video jika diperlukan */
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); /* Efek blur */
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #5548c8;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.login-link {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.login-link a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

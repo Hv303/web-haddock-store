@@ -1,0 +1,27 @@
+/* Navbar Transparan dengan Teks Putih */
+.navbar-transparent {
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Menyesuaikan warna teks pada link di navbar */
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white; /* Warna putih untuk teks */
+  }
+  
+  /* Mengubah warna link saat hover */
+  .navbar .nav-link:hover {
+    color: #ccc; /* Warna abu-abu saat dihover */
+  }
+
+  .navbar-toggler {
+    color: #fff; /* Mengubah warna teks menjadi putih */
+    border-color: #fff; /* Mengubah warna border menjadi putih */
+  }
+
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="white"><path stroke="white" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+    /* Mengubah warna ikon toggler menjadi putih */
+  }
+  
